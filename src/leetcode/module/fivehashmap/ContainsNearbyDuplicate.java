@@ -10,10 +10,7 @@ import java.util.Map;
 public class ContainsNearbyDuplicate {
     public static void main(String[] args) {
         containsNearbyDuplicate2(new int[]{1,2,3,1}, 3);
-
-
         containsNearbyDuplicate(new int[]{1,0,1,1}, 3);
-
     }
 
     //方法一：枚举右，维护左
